@@ -9,7 +9,7 @@ Created on Thu Sep 24 15:20:32 2020
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/home')
 def hello_world():
     return '<h1>Synersense Demo</h1>'
 
